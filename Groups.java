@@ -18,7 +18,7 @@ public class Groups extends Star {
         System.out.println("1>>>超特急\n2>>>M!LK\n3>>>SUPER★DRAGON\n4>>>さくらしめじ\n5>>>ONE N' ONLY\n6>>>原因は自分にある。\n7>>>BUDDiiS\n8>>>ICEx\n9>>>Lienel");
         System.out.println("00>>>図鑑を閉じる");
         System.out.print("\nご覧になりたいグループのページに対応する数字を入力してください。>>>");
-        // 入力された文字をmemuに代入
+        // 入力された文字をmenuに代入
         int menu = stdIn.nextInt();
 
         // switchでページを分岐させる
