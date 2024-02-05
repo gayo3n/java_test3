@@ -3,10 +3,15 @@ package kouka3;
 // 基本プロフィール＆紹介
 public class Star {
     // 基本プロフィールのプロパティを作成
+    // 名前
     private String name;
+    // 誕生日
     private String birthday;
+    // 出身地
     private String born;
+    // 身長
     private String height;
+    // 補足
     private String memo;
 
     // コンストラクタ

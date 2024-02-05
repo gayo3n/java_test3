@@ -1,18 +1,17 @@
 package kouka3;
-
+// EbisuDanshiインターフェースを実装したOpenCloseクラス
 public class OpenClose implements EbisuDanshi{
-
-    
+    // openメソッドをオーバーライド
     @Override
     public void open(){
         System.out.println("EBiDAN図鑑をお手に取っていただきありがとうございます！！！！！");
-        System.out.println("いまからEBiDAN図鑑を開いています・・・・・・・・・");
         System.out.println("\n・・・・・・・・・・・・・・・・・・・・・");
-        System.out.println("\n\n\n・・・・・・・・・・・・・・・・・・・・・;つД｀)ｼﾞｶﾝｶｶｯﾃﾃｽﾐﾏｾﾝ");
+        System.out.println("\n・・・・・・・・・・・・・・・・・・・・・!(^^)!ｴﾋﾞﾀﾞﾝ");
     }
+    // closeメソッドをオーバーライド
     @Override
     public void close(){
-        System.out.println("");
+        System.out.println("\nEBiDAN図鑑を閉じます。");
         System.out.println("\n・・・・・・・・・・・・・・・・・・・・・(ノД`)・゜・。ﾏﾀｷﾃｸﾀﾞｻｲﾈ");
     }
 }
